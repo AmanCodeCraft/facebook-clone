@@ -89,16 +89,14 @@ nav{
     right: 0;
 }
 
-/* hero section */
-
 .container{
     display: flex;
     justify-content: space-between;
-    padding: 13px 5%;
+    padding: 13px 2%;
 }
 
 .left-container{
-    flex-basis: 23%;
+    flex-basis: 22%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
@@ -107,9 +105,9 @@ nav{
 .right-container{
     background-color: #fff;
     color: #626262;
-    padding: 20px;
+    padding: 15px;
     border-radius: 4px;
-    flex-basis: 28%;
+    flex-basis: 26%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
@@ -129,7 +127,7 @@ nav{
     color: #626262;
 }
 
-.imp-links{
+.imp-links,.Online-users{
     display: flex;
     flex-direction: column;
 }
@@ -160,7 +158,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .right-container>.title>h4{
@@ -218,12 +216,198 @@ nav{
 
 .adds{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 4px;
-
 }
 
+.Online-users>a>img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
 
+.Online-users>a{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #626262;
+}
 
+/* main section or center area*/
 
+.story-gallary{
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.story{
+    height: 165px;
+    width: 97px;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.story>img{
+    width: 25px;
+}
+
+.story>p{
+    font-size: .9rem;
+}
+
+.str-up{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.str-up>p{
+    padding: 0 20px;
+}
+
+.str-up>img{
+    width: 35px;
+    border-radius: 50%;
+    border: 4px solid #1876f2;
+    flex-direction: row;
+}
+
+.story1{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-1.png);
+}
+
+.story2{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-2.png);
+}
+
+.story3{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-4.png);
+}
+
+.story4{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-2.png);
+}
+
+.story5{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/status-5.png);
+}
+
+/* post section in center */
+.main-content{
+    width: 50%;
+}
+.main-content>.post-section{
+    width: 100%;
+    background-color:#fff;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.post-section>.profile-sec>img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic{
+   width:16px;
+   margin: 0px 5px;
+}
+
+.opt-list{
+    display: flex;
+    cursor: pointer;
+}
+
+.opt-list>a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+small,.content>p{
+    color: #626262;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name>p{
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.write-area{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 0 4px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.part-2>.content>p>a{
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.post-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.part2-pics>a>img{
+   width: 15px;
+   height: 15px;
+}
+
+.btn{
+    background: transparent;
+    border: 2px solid #626262;
+    color: #626262;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>p{
+    text-align: center;
+    padding: 10px;
+    color: #626262;
+}
 
